@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;  
+    margin: 0;    
+    padding: 0;    
+}
+
+body {
+    font-family: 'Playfair Display', Times, serif;
+    background: linear-gradient(
+        to bottom, 
+    hsla(33, 100%, 50%, 1),     
+    hsla(33, 100%, 60%, 1),     
+    hsla(33, 90%, 70%, 1),      
+    hsla(18, 100%, 60%, 1),     
+    hsla(18, 100%, 50%, 1)     
+);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: hsla(33, 100%, 50%, 1);
+}
+
+form {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#textbox {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', Times, serif;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    font-family: 'Playfair Display', Times, serif;
+    font-weight: bold;
+    background-color: hsla(33, 100%, 70%, 1);
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsla(33, 100%, 60%, 1);
+}
+
+#result {
+    font-size: 1.75em;
+    font-weight: bold;
+}
